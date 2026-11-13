@@ -537,7 +537,7 @@ public sealed partial class AetherGame : MonoBehaviour
         AetherSaveStore.SetString("Aether.HorizonRecords.v1", "");
         AetherSaveStore.SetString("Aether.Waystones.v1", "");
         Begin(true);
-        Check(TotalSolved==18 && TotalRelics==24 && AetherHorizons.I.SolvedCount==0, "version two save retains eighteen lights and twenty-four records", checks);
+        Check(TotalSolved==18 && TotalRelics==24 && AetherHorizons.I.SolvedCount==0, "earlier save retains eighteen lights and twenty-four records", checks);
         Check(VisitedWaystones==6, "legacy completed regions receive six waystones", checks);
         Interact(6); Check(Phase==GamePhase.Playing, "eighteen lights do not bypass horizon finale", checks);
         yield return SmokeHorizonCrossings(checks);

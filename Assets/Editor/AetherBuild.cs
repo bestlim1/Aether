@@ -27,7 +27,6 @@ public static class AetherBuild
         EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
         PlayerSettings.companyName = "Aether Studio";
         PlayerSettings.productName = "AETHER";
-        PlayerSettings.bundleVersion = "3.0.0";
         PlayerSettings.defaultScreenWidth = 1600;
         PlayerSettings.defaultScreenHeight = 900;
         PlayerSettings.fullScreenMode = FullScreenMode.Windowed;

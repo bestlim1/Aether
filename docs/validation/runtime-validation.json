@@ -162,7 +162,7 @@
         "PASS frontier record 24 reachable and collected",
         "PASS first twenty-four records collected",
         "PASS expanded journal entries and movement lock",
-        "PASS version two save retains eighteen lights and twenty-four records",
+        "PASS earlier save retains eighteen lights and twenty-four records",
         "PASS legacy completed regions receive six waystones",
         "PASS eighteen lights do not bypass horizon finale",
         "PASS walk entire horizon bridge at x=-43",
