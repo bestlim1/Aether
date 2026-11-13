@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "assertions": 825,
+  "scope": "Compiled production puzzle helpers only; no Unity player or graphics execution"
+}
